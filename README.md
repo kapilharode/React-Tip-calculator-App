@@ -1,18 +1,14 @@
+CREATE REACT APP INSTRUCTIONS:-
+As a restaurant owner, I want to calculate the total tip offered by various customer according to their experience. For example, if the experience is excellent and the total bill of the customer is 2000 The total tip would be 20% of 2000 i.e. 400 Rs. You need to show Customer Name and the tip amount 400 as an output for each customer.
 
-OBJECTIVE:-
+OBJECTIVES:-
 
-Create a to-do list where you can keep you daily tasks and mask them as complete. the to-do list should have following features:
-
-1.button to add an item, when you hover over the button, the color of the button should change.
-
-2.Each item must have a task description input field and an option to add planned completion date for each item.
-
-3.If the task planned completion date is passed, display 'Due day is passed' below the item and the border should be yellow for that item.
-
-4.Each to-do item should be associated with a check-box. when the user clicks on the check box the content of the item should strikethrough (make sure you use index in the array for more efficient operation)
-
-5.Option to delete an item by clicking on the delete button attached with each item.
-
+Create a bill amount field.
+Create a text input for entering the name of the customers.
+Create a select tag for service rating, based on the rating the tip amount will be calculated and displayed. for example: total bill amount: 2000 Service 1: excellent (20%) Service 2: Moderate (10%) Service 3: bad (5%)
+Tip from customer 1: (2000) * 20% - Customer tip - 400 Rs Tip from customer 2: (2500) * 10% - Customer tip - 250 Rs Tip from customer 3: (5000) * 5% - Customer tip - 250 Rs
+When customer clicks on Add customer button after filling the details, calculate and display the tip for the customer and add the details to the output area dynamically.
+Add a Calculate button to view total customers and total tip paid.
 
 
 
